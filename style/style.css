@@ -12,6 +12,19 @@
     list-style: none;
 }
 
+.mid-box {
+    display : flex;
+    height: 100%;
+    list-style: none;
+    gap : 200px;
+}
+
+.mid-box-items {
+    display: inline-block;
+    align-self : flex-end;
+    bottom: 0;
+}
+
 .resume {
     display : flex;
     flex-direction : row;
