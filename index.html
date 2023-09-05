@@ -1,12 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title> All About Me</title>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
+<link rel="stylesheet" href="style/style.css">
+
+<!-- main title -->
+<ul class = "head">
+    <h1> All About Me</h1>
+    <meta charset="utf-8">
+</ul>
+
+<!-- introductions -->
+<ul class = "flex">
+    <li class = "flex-item">
         <img src="./images/2533.jpg" alt="pfp">
+    </li>
+    <li class = "flex-item">
         <h1> Hi, my name is Faye Yang. </h1>
 
         <h2> Software Engineer </h2>
@@ -15,10 +20,13 @@
         <p> Insta: <a href="https://www.instagram.com/ffaye.yangg/"> @ffaye.yangg </a></p>
         <p> Github: <a href="https://github.com/Fyang094"> @Fyang094 </a></p>
 
-        <h3> About me: </h3>
-        <p>  I'm a programmer from Eastvale, CA and am currently studying at UCR. </p>
+    </li>
+</ul>
 
-        <h3> work experience </h3>
+<!-- resume -->
+<ul class = "resume">
+    <li class = "resume-item">
+        <h3> Work Experience </h3>
         <table>
             <tbody>
                 <tr>
@@ -31,7 +39,8 @@
                 </tr>
             </tbody>
         </table>
-
+    </li>
+    <li class = "resume-item">
         <h3> Education </h3>
         <table>
             <tbody>
@@ -46,8 +55,13 @@
                     <td> 2020 - 2024 </td>
                 </tr>
             </tbody>
-
         </table>
+    </li>
+</ul>
+
+<!-- school experience -->
+<ul class = "school">
+    <li class = "school-item">
         <h3> Coursework </h3>
         <ul>
             <li> Data Structures and Algorithms </li>
@@ -58,32 +72,20 @@
             <li> Desgin of Operating Systems </li>
             <li> Information Retrieval </li>
         </ul>
+    </li>
+    <li class = "school-item">
         <h3> Skills </h3>
         <ul> 
             <li> JavaScript </li>
             <li> C++ </li>
             <li> Python </li>
         </ul>
+    </li>
+    <li class = "school-item">
         <h3> Projects </h3>
         <ul>
             <li> capybara reddit crawler </li>
             <li> code compiler </li>
         </ul>
-    </body>
-</html>
-
-<style>
-    h1 {
-        color: #FA744D;
-        font-size : 40px;
-        text-align : center;
-    }
-
-    body {
-        background-color: beige;
-    }
-
-    img {
-        width: 200px;
-    }
-</style>
+    </li>
+</ul>
